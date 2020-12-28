@@ -1,4 +1,3 @@
-const API =process.env.API
 
 export const signUp=user=>{
     return fetch(`https://dashboard.heroku.com/apps/authappdeploy/api/signup`,{

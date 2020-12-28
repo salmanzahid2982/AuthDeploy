@@ -19,7 +19,7 @@ const Signup=() =>{
         console.log(data);
         setValues({...values,email:"",password:"",error:false})
     })
-    .catch(console.log("Error in SignUp"))
+    .catch(console.log(`Error in SignUp `))
   }
 
   return (

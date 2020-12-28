@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+//import React, { useState } from "react";
 import './App.css';
-import { signUp } from "./Auth/helper";
+//import Base from "./core/Base";
 import Signup from "./Signup";
-
 
 const App=() =>{
   return (
-    <div>
+    <div>  
       <Signup/>
     </div>
   );

@@ -1,8 +1,7 @@
 const API =process.env.API
 
 export const signUp=user=>{
-    //console.log(user)
-    return fetch(`http://localhost:8000/api/signup`,{
+    return fetch(`https://dashboard.heroku.com/apps/authappdeploy/api/signup`,{
         method: "POST",
         headers: {
             Accept: "application/json",
